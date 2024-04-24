@@ -1,0 +1,38 @@
+.product-page{
+  max-width: 1130px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.product__title{
+  display: flex;
+  flex-direction: column;
+  font-size: 64px;
+  margin-bottom: 30px;
+}
+
+.prodcut__thumbnil{
+  border-radius: 20px;
+}
+
+.product__description{
+  font-size: 18px;
+  font-weight: 400;
+  opacity: 0.6;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.product__images{
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+.product__images img{
+  max-width: calc(20% - 16px);
+  object-fit: cover;
+  border-radius: 20px;
+}
